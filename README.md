@@ -1,4 +1,5 @@
 ### how to run laravel project from github?
+```
 git clone <my-cool-project>
 composer install. or composer update
 cp .env.example .env
@@ -18,9 +19,9 @@ php artisan --version
 
 facker 
 
-
+```
 ### seeder>customarSeeder.php
-
+```
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
  
@@ -34,11 +35,13 @@ class customerSeeder extends Seeder
         DB::unprepared($sql);
     }
 }
+```
 
 ### Models>Cutomar.php
-
+```
 use HasFactory;
 protected $fillable = [
 	'name',
 	'contact'
 ];
+```
