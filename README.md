@@ -1,4 +1,5 @@
 ### how to run laravel project from github?
+
 ```
 git clone <my-cool-project>
 composer install. or composer update
@@ -20,7 +21,9 @@ php artisan --version
 facker 
 
 ```
+
 ### seeder>customarSeeder.php
+
 ```
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
